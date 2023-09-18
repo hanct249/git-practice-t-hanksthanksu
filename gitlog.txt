@@ -1,0 +1,15 @@
+ba1e7bf Merge pull request #1 from huntercroxall/features-huntercroxall
+8aaf8cf New file for the repo
+da9ef3b fix merge conflict
+8c12db1 new txt in new_features.txt on features branch
+a70489e changed text in new_features.txt
+8808b09 new text in new_feature.txt
+8d32d93 merging main and features
+224491f new txt in file_1.txt
+78285d3 modified txt in new_features.txt
+081c441 create new_features.txt
+2c17b19 putting files in gitignore
+1274f2a create readme file
+9953655 added text to file_2.txt
+fffe624 added text to file_1.txt
+3a77f4b create new files

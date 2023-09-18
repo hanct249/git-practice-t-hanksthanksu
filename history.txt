@@ -1,0 +1,129 @@
+  760  git config --global user.name "Tyler Hanks"
+  762  git config --global user.name "t-hanksthanksu"
+  764  git config --global user.name "t-hanksthanksu"
+  765  git config --global user.email "tylerdavidhanks@gmail.com"
+  766  git config --global init.defaultBranch main
+  767  git config --global core.editor "code --wait"
+  861  git --version
+  941  touch git_practice
+  942  cd git_practice
+  943  mkdir git_practice
+  944  cd git_practice
+  945  rm git_practice
+  946  mkdir git_practice
+  947  cd git_practice
+  948  git status
+  949  git init
+  950  git status
+  952  git status
+  954  git status
+  956  git status
+  957  git add file_1.txt
+  958  git add file_2.txt
+  959  git status
+  960  git commit -m "create new files"
+  961  git status
+  962  git log
+  963  git status
+  964  git add file_1.txt
+  965  git commit -m "added text to file_1.txt"
+  966  git status
+  967  git add file_2.txt
+  968  git status
+  969  git commit -m "added text to file_2.txt"
+  970  git status
+  971  git log
+  974  .gitignore api-keys.txt
+  976  nano .gitignore
+  977  git status
+  978  git add readme.md
+  979  git commit -m "create readme file"
+  982  git status
+  984  nano .gitignore
+  985  git status
+  986  git add.
+  987  git add .
+  988  git commit -m 'Create gitignore'
+  991  git status
+  992  git rm --cached api-keys.txt
+  993  nano .gitignore
+  994  git status
+  995  git add .
+  996  git commit -m "putting files in gitignore"
+  997  git branch
+  998  git branch [features]
+  999  git switch [features]
+ 1000  git log
+ 1001  git branch
+ 1004  cd git_practice
+ 1005  git branch
+ 1006  git switch [features'\n]\n'
+ 1007  git switch [features]
+ 1008  git branch [features]
+ 1009  git branch [branch-features]
+ 1010  git branch [features]
+ 1011  git branch features
+ 1012  git switch features
+ 1013  git log
+ 1015  git add .
+ 1016  git commit "create new_features.txt"
+ 1017  git commit -m "create new_features.txt"
+ 1020  git add .
+ 1021  git commit -m "add empty file"
+ 1023  git add.
+ 1024  git add .
+ 1025  git branch
+ 1026  git commit -m "modified txt in new_features.txt"
+ 1027  git switch main
+ 1029  git add .
+ 1030  git commit -m "new txt in file_1.txt"
+ 1031  git merge features
+ 1032  git commit -m "merging main and features"
+ 1033  git log
+ 1035  git add .
+ 1036  git commit -m "\nnew text in new_feature.txt"
+ 1037  git switch features
+ 1040  git switch main
+ 1042  git add .
+ 1043  git commit -m "changed text in new_features.txt"
+ 1044  git switch features
+ 1047  git add .
+ 1048  git commit -m "new txt in new_features.txt on features branch"
+ 1049  git switch main
+ 1050  git merge features
+ 1052  git add .
+ 1053  git commit -m "fix merge conflict"
+ 1054  git branch --delete features
+ 1055  git remote add origin git@github.com:t-hanksthanksu/git-practice-t-hanksthanksu.git
+ 1056  git remote add origin git@github.com:t-hanksthanksu/git-practice-t-hanksthanksu.git\ngit branch -M main\ngit push -u origin main
+ 1058  git status
+ 1059  git clone git@github.com:t-hanksthanksu/git-practice-huntercroxall.git
+ 1060  git status
+ 1061  cd git-practice-huntercroxall
+ 1062  git status
+ 1064  git add .
+ 1065  git commit - m "adding new txt file"
+ 1066  git log
+ 1067  git status
+ 1068  git push origin feature-<Tyler-Hanks>
+ 1069  git push origin feature-TylerHanks
+ 1070  git push origin feature-t-hanksthanksu
+ 1071  git push origin feature-<t-hanksthanksu>
+ 1072  git push origin feature-t-hanksthanksu
+ 1073  git branch
+ 1074  git fetch origin
+ 1075  git status
+ 1076  git commit -m "new file" 
+ 1077  git status
+ 1078  git push origin feature-t-hanksthanksu
+ 1079  git push origin features-t-hanksthanksu
+ 1080  git branch feature-t-hanksthanksu
+ 1081  git status
+ 1082  git branch
+ 1083  git add .
+ 1084  git commit -m "new branch"
+ 1085  git push origin feature-t-hanksthanksu
+ 1087  cd git-practice
+ 1088  cd git_practice
+ 1089  git pull
+ 1090  git log --oneline > gitlog.txt
